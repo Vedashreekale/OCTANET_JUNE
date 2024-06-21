@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  background-image: url('images/bg1.jpg'); /* Replace with your image path */
+  background-repeat: no-repeat; 
+  background-size: cover;
+
+  }
+
+  h1{
+    color: white;
+    -webkit-text-stroke: 2px white;
+    -webkit-text-fill-color: transparent;
+    margin-left: 30px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between; /* Align items to the right */
+    align-items: center;
+    padding: 6px;
+    background-color: #6a0606;
+}
+
+nav .nav-links {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    margin-left: 10px; /* Add some spacing between the buttons */
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Set the text color */
+    padding: 5px 10px; /* Add some padding to the buttons */
+    border-radius: 5px; /* Add rounded corners to the buttons */
+}
+
+nav a:hover {
+    background-color: #ddd; /* Change background color on hover */
+    color: #6a0606;
+}
+  
+  #add-task {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 400px;  /* Adjust for left margin */
+    margin-right: 50px; 
+    width: 400px;
+  }
+  
+  #new-task {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #add-button {
+    padding: 10px 20px;
+    background-color: #814caf;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px; 
+    cursor: pointer;
+  }
+  
+  #task-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 50px;
+    margin-left: 400px;  /* Adjust for left margin */
+    margin-right: 50px; 
+    width: 400px;
+  }
+  
+  #task-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #task-list li input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  #task-list li.completed{
+    text-decoration: line-through;
+    opacity: 0.7;
+  }
+
+  .delete-button {
+    background-color: #814caf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #999;
+  }
+
+  
